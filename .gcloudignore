@@ -1,10 +1,12 @@
+# Archivos que NO se suben a Cloud Build al desplegar (solo hace falta lo que usa el Dockerfile)
+.git/
+.gitignore
 .env
+.env.*
+env*.yaml
 .venv/
+modelo/
 __pycache__/
 probar_local.py
-env.yaml
-env.example.yaml
-.env.example
-README.md
-modelo/
 desplegar.ps1
+README.md

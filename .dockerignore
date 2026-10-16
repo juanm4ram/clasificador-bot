@@ -1,10 +1,12 @@
+# Archivos que NO entran al contexto de Docker (solo hace falta lo que usa el Dockerfile)
+.git/
+.gitignore
 .env
-.env.example
-env.yaml
-env.example.yaml
+.env.*
+env*.yaml
 .venv/
 modelo/
-__pycache__/
+**/__pycache__/
 probar_local.py
-README.md
 desplegar.ps1
+README.md

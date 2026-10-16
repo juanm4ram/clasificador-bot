@@ -1,5 +1,11 @@
+# Secretos: cualquier archivo de variables, salvo las plantillas
 .env
+.env.*
+!.env.example
+env*.yaml
+!env.example.yaml
+
+# Entorno local y modelo descargado (~1 GB)
 .venv/
-__pycache__/
-env.yaml
 modelo/
+__pycache__/
