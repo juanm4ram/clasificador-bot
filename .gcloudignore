@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+probar_local.py
+env.yaml
+env.example.yaml
+.env.example
+README.md
+modelo/
+desplegar.ps1
